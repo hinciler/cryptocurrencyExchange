@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#00000e</color>
+    <color name="colorParifix">#ff5500</color>
+
+
+
+    <color name="txtDisableBGColor">#4a5c7c</color>
+    <color name="txtBtnBGColor">#6c757d</color>
+    <color name="buyBottomActive">#3ab2ee</color>
+    <color name="sellBottomActive">#f87979</color>
+
+
+    //Bottom Navigation
+    <color name="BottomNavBarColor">#1d1d21</color>
+    <color name="InactiveBottomNavIconColor">#FFFFFF</color>
+
+
+    //tab colors
+    <color name="tabPassiveTextColor">#c8d3dc</color>
+    <color name="tabActiveTextColor">#1d1d21</color>
+
+
+    <color name="customColorWhite">#ffffff</color>
+    <color name="customColorBlack">#000000</color>
+    <color name="customColorGrayLight">#ededed</color>
+    <color name="customColorGray">#c8d3dc</color>
+    <color name="customColorGrayDark">#ccc</color>
+    <color name="customColorGrayDark2x">#999</color>
+    <color name="customColorGrayDark3x">#6c6c6c</color>
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+        android:orientation="horizontal"
+        android:background="@color/colorBackground"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                app:srcCompat="@drawable/parifix_logo"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"/>
+
+            <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1.0" />
+
+            <View android:background="@color/customColorGrayDark3x" android:layout_width="1dp" android:layout_height="35dp" />
+
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                android:orientation="horizontal"
+                android:id="@+id/selected_market_name_layout"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="RtlHardcoded">
+
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp">
+
+                    <TextView android:textSize="16sp"
+                        android:textColor="@color/colorParifix"
+                        android:id="@+id/selected_market_name_txt"
+                        android:text="BTC/TRY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/regular" />
+
+                    <TextView android:textSize="12sp"
+                        android:id="@+id/select_market"
+                        android:textColor="@color/customColorGray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/select_market"
+                        android:fontFamily="@font/regular" />
+                </LinearLayout>
+
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="12dp"
+                    android:src="@drawable/select_market_arrow"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true" />
+
+            </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView android:id="@+id/parent_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TabLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:minHeight="45dp"
+                app:tabBackground="@drawable/tab_color_selector"
+                app:tabIndicatorColor="@color/BottomNavBarColor"
+                app:tabSelectedTextColor="@color/customColorWhite"
+                app:tabTextAppearance="@style/tab_text"
+                app:tabTextColor="@color/tabPassiveTextColor"/>
+
+            <com.parifix.app.util.NonSwipeableViewPagerWrapContent android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.design.widget.TabLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:id="@+id/tab_layout_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:minHeight="45dp"
+                app:tabBackground="@drawable/tab_color_selector"
+                app:tabIndicatorColor="@color/BottomNavBarColor"
+                app:tabSelectedTextColor="@color/customColorWhite"
+                app:tabTextAppearance="@style/tab_text_bottom"
+                app:tabTextColor="@color/tabPassiveTextColor" />
+
+            <com.parifix.app.util.CustomPager android:id="@+id/pager_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

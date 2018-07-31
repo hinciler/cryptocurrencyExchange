@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1040904223347",
+    "firebase_url": "https://parifix-54dae.firebaseio.com",
+    "project_id": "parifix-54dae",
+    "storage_bucket": "parifix-54dae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040904223347:android:b492c261e229467f",
+        "android_client_info": {
+          "package_name": "com.parifix.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040904223347-30pbtc3i93tkf5flbcuo11hc7972bsgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGoQaeEvtwSFC3WuqEu0TFMipSrgzjVD0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
