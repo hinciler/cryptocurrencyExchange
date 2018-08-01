@@ -9,9 +9,14 @@
 
 
     <color name="txtDisableBGColor">#4a5c7c</color>
-    <color name="txtBtnBGColor">#6c757d</color>
+    <color name="txtBtnBGBuyColor">#28a745</color>
+    <color name="txtBtnBGSellColor">#dc3545</color>
     <color name="buyBottomActive">#3ab2ee</color>
     <color name="sellBottomActive">#f87979</color>
+
+    //Input Text Color
+    <color name="lblColor">#b7b7b7</color>
+    <color name="txtColor">#989ca0</color>
 
 
     //Bottom Navigation

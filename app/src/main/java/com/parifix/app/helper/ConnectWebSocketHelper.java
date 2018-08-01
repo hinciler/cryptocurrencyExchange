@@ -49,7 +49,7 @@ public class ConnectWebSocketHelper {
                 activity.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        TextView textView = activity.findViewById(R.id.messages);
+//                        TextView textView = activity.findViewById(R.id.messages);
                         String newMessage = message.replace("\\", "");
 //                        Log.i("Websocket", "OnMessage " + newMessage);
                         output(newMessage, activity);

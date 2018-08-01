@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyPagerAdapter extends FragmentPagerAdapter {
-    private List<Fragment> fragments = new ArrayList();
+    private List<Fragment> fragments = new ArrayList<>();
     private int mCurrentPosition = -1;
 
     public MyPagerAdapter(FragmentManager fragmentManager) {
