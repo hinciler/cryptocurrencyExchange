@@ -112,7 +112,7 @@ public class TradeFragment extends Fragment {
                 case 0:
                     return new BuyFragment();
                 case 1:
-                    return new SellFragment();
+                    return new BuyFragment();
                 default:
                     return null;
             }
@@ -153,8 +153,9 @@ public class TradeFragment extends Fragment {
 
 
     private void initBuyAndSellFragments() {
-        this.tabLayout.addTab(this.tabLayout.newTab().setText("Alis"));
-        this.tabLayout.addTab(this.tabLayout.newTab().setText("Satis"));
+        this.tabLayout.addTab(this.tabLayout.newTab().setText("Limit"));
+        this.tabLayout.addTab(this.tabLayout.newTab().setText("Piyasa"));
+        this.tabLayout.addTab(this.tabLayout.newTab().setText("Piyasa"));
         this.adapter = new PagerAdapter(getActivity().getSupportFragmentManager(), this.tabLayout.getTabCount());
         this.pager.setAdapter(this.adapter);
         this.pager.setOffscreenPageLimit(2);
