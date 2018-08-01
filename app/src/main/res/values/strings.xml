@@ -5,6 +5,8 @@
     <string name="title_notifications">Notifications</string>
     <string name="give_buy_order">Alış Emri Ver</string>
     <string name="give_sell_order">Satış Emri Ver</string>
+    <string name="amount">Miktar</string>
+    <string name="price">Fiyat</string>
 
     <string name="select_market">Market Seçimi</string>
 
